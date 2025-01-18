@@ -218,8 +218,16 @@ main section:nth-child(2) article:nth-child(2) {
     float: none;
 
 }
+
+main section:nth-child(2) article:nth-child(2) div.caja-info-works a,
+main section:nth-child(2) article:nth-child(2) div.caja-info-works a:visited,
+main section:nth-child(2) article:nth-child(2) div.caja-info-works a:hover,
+main section:nth-child(2) article:nth-child(2) div.caja-info-works a:active {
+  color: white !important;
+}
+
 main section:nth-child(2) article:nth-child(2) h5 {  }
-main section:nth-child(2) article:nth-child(2) div.caja-info-works {  }
+main section:nth-child(2) article:nth-child(2) div.caja-info-works { color: white !important; text-decoration: none; }
 main section:nth-child(2) article:nth-child(2) div.caja-info-works h6 {  }
 main section:nth-child(2) article:nth-child(2) div.caja-info-works p {  }
 main section:nth-child(2) article:nth-child(2) div.caja-info-works ul {  }
